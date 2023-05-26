@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+}
+
+.header__list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__list-item a {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+    transition: 0.3s;
+}
+
+.header__list-item:hover a {
+    color: #FF9C28;
+}
+
+.header__form {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header__form-input {
+    max-width: 190px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: #404864;
+    outline: none;
+    border: none;
+}
+
+.header__search {
+    display: flex;
+    gap: 30px;
+}
+
+.header__form-a {
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+
+.header__lang {
+    padding: 5px 74px 5px 8px;
+    background: #00000080;
+    border-radius: 5px;
+    position: relative;
+}
+
+.header__lang a {
+    color: white;
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header__lang-img {
+    position: absolute;
+    right: 0;
+}
+
+.container__1{
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.banner {
+    background: url(../img/1111.png) center/cover no-repeat;
+    height: 90vh;
+}
+
+.banner__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+}
+
+.banner__desc-number {
+    font-family: 'Quantico', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: white;
+}
+
+.banner__desc-p {
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.updates {
+    background: #000000;
+
+}
+
+.updates__h {
+    font-family: 'Quantico', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.updates__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.updates__scroll {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    background: #000000;
+}
+
+.champions {
+    background: #1B1E27;
+    padding: 30px 30px;
+}
+
+.champions__h {
+    font-family: 'Quantico', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: white;
+}
+
+.champions__data {
+    display: flex;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+
+.champions__data-p {
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF80;
+}
+
+.champions__desc {
+    display: flex;
+    gap: 50px;
+}
+
+.champions__desc img {
+    max-width: 500px;
+}
+
+.champions__desc-p {
+    max-width: 323px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.champions__desc-p-1 {
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #bfbfbf;
+}
+
+.champions__link {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.champions__rio {
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #bfbfbf;
+    padding: 10px 0;
+}
+
+.champions__link a {
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+
+}
